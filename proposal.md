@@ -27,7 +27,7 @@ several interesting patterns which we found interesting.
 * Clock Control
 * 
 
-Building Distributed Systems in Go, A Case Study.
+Building Distributed Systems in Go.
 ====
 
 Over the past few years development and research of distributed systems has
