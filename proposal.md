@@ -22,12 +22,7 @@ Test-driven development of Distributed systems.
 In writing an implementation of the Raft consensus protocol, we extracted
 several interesting patterns which we found interesting.
 
-Cluster Simulation
-======
+* Cluster Simulation
+* Behavioral Style Testing
+* Clock Control
 
-Behavioral Style Testing
-======
-
-
-Clock Control
-======
