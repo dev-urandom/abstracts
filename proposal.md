@@ -27,7 +27,7 @@ several interesting patterns which we found interesting.
 * Clock Control
 * 
 
-Building Distributed Systems in Go.
+Building Distributed Systems in Go for Fun and Relaxation.
 ====
 
 Over the past few years development and research of distributed systems has
