@@ -1,7 +1,6 @@
-Raft for Learning Go
-====
+## Raft for Learning Go
 
-## Description
+### Description
 
 As a new user of a language, finding interesting problems to solve in order to
 learn the language can be difficult. Choose a project too easy and you learn
@@ -19,14 +18,13 @@ concurrency model. And we developed a few
 interesting techniques, particularly around test-driven development of a
 distributed system in Go.
 
-## Notes to the Planning Committee
+### Notes to the Planning Committee
 
 todo
 
-Test-driven development of Distributed systems.
-====
+## Test-driven development of Distributed systems.
 
-## Description
+### Description
 
 In writing an implementation of the Raft consensus protocol, we extracted
 several interesting patterns which we found interesting.
@@ -35,14 +33,13 @@ several interesting patterns which we found interesting.
 * Behavioral Style Testing
 * Clock Control
 
-## Notes to the Planning Committee
+### Notes to the Planning Committee
 
 todo
 
-Building Distributed Systems in Go for Fun and Relaxation.
-====
+## Building Distributed Systems in Go for Fun and Relaxation.
 
-## Description
+### Description
 
 Over the past few years development and research of distributed systems has
 dramatically increased. While there are many reasons why developing distributed
@@ -57,6 +54,6 @@ of failures states by emulating partitions. In this session we will walk through
 some of the challenges we faced while implementing Raft and how Go helped us
 solve them.
 
-## Notes to the Planning Committee
+### Notes to the Planning Committee
 
 todo
