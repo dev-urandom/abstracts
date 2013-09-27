@@ -7,11 +7,16 @@ learn the language can be difficult. Choose a project too easy and you learn
 nothing about the language. Choose a project too hard and you can make very
 little progress.
 
-Implementing Raft in Go is the perfect project to learn about both Go and
-distributed systems. There is an excellent fit between Go's strengths and the
-tools needed to build a successful Raft implementation. Furthermore, because
-Raft is a protocol designed first and foremost to be understandable and
-implementable.
+Raft is a consensus protocol developed by Diego Ongaro and John Ousterhout at Stanford
+University. One of the stated design goals for Raft is to be easy to understand and
+implement. This makes it a perfect pedagogical project. It is understandable, but it is
+also a meaty problem and implementations can be used in real production systems.
+
+Go is well suited to the problems presented in implementing Raft. Channels and goroutines
+provide sensible and intuitive tools for managing currency.
+
+Because of the fit between Go's strengths and Raft's focus on understandability, Raft makes
+an excellent first "real" project for learners of Go.
 
 In implementing Raft in Go, we developed a deeper understanding of Go's
 concurrency model. And we developed a few
@@ -20,7 +25,8 @@ distributed system in Go.
 
 ### Notes to the Planning Committee
 
-todo
+As the rate of new users coming to Go increases, it will become more and more important
+to think about how these new users increase their skills with this language.
 
 ## Test-driven development of Distributed systems.
 
