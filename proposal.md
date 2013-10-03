@@ -23,6 +23,8 @@ concurrency model. And we developed a few
 interesting techniques, particularly around test-driven development of a
 distributed system in Go.
 
+In this talk, we will share our experiences in implementing this protocol. We will focus on the protocol itself, challenges we experienced implementing it, and some of the interesting patterns we discovered and extracted.
+
 ### Notes to the Planning Committee
 
 As the rate of new users coming to Go increases, it will become more and more important
