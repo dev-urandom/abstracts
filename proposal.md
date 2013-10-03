@@ -37,9 +37,15 @@ to think about how these new users increase their skills with this language.
 In writing an implementation of the Raft consensus protocol, we extracted
 several interesting patterns which we found interesting.
 
-* Cluster Simulation
+Many of the most interesting cases which must be tested in an implementation of a distributed
+protocol involve interactions between multiple running nodes implementing the protocol. We created
+a sensible and usable interface to make these tests easy to write and understand. 
+
 * Behavioral Style Testing
+
 * Clock Control
+
+Several elements of the Raft protocol rely on timeouts. 
 
 ### Notes to the Planning Committee
 
